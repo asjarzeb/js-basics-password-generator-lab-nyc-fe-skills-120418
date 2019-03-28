@@ -5,6 +5,7 @@ const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
 
 function onSubmit(event) {
   console.log('hi')
+  event.preventDefault()
   
   
 }
